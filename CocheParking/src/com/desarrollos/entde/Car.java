@@ -1,7 +1,7 @@
 package com.desarrollos.entde;
 
-import java.util.Arrays;
-import java.awt.Color;
+//import java.util.Arrays;
+//import java.awt.Color;
 /**
  * Class that models objects of type "car"
  * 
