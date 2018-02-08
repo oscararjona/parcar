@@ -34,6 +34,7 @@ public class Car
         car.moveDown();
         car.accelerate();
         Garage.printGarage();
+        //he agregado el nombre de la clase para que se pueda ejecutar el metodo y desabilitado los metodos que estaban sin definir
 //        turnRight();
 //        turnHeadlightsOn();
 //        turnHeadlightsOff();
@@ -47,6 +48,7 @@ public class Car
         String c = new String("*");
         String space = new String(" ");
     	for(int i=0; i<5; i++)
+            //las s de string deben ser mayusculas
         {
         	System.out.print(c);
         	c = space.concat(c);
@@ -79,7 +81,7 @@ public class Car
         { 
     		if(numberWheels !=4)
     			System.out.println(c);
-    		
+    		//he cambiado la variable i por el atributo numberwheels
     		else 
     			System.out.print(c);
         	Thread.sleep(1000);
