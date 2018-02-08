@@ -34,6 +34,7 @@ public class Car
        car. moveDown();
         car.accelerate();
         g.printGarage();
+        //poner variables car y g al principio del metodo
 //        turnRight();
 //        turnHeadlightsOn();
 //        turnHeadlightsOff();
