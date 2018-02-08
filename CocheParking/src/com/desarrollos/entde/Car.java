@@ -30,10 +30,10 @@ public class Car
     	Garage g = new Garage();
     	Car car = new Car(g);
         car.accelerate();
-        slowDown();
-        moveDown();
-        accelerate();
-        car.printGarage();
+        car.slowDown();
+       car. moveDown();
+        car.accelerate();
+        g.printGarage();
 //        turnRight();
 //        turnHeadlightsOn();
 //        turnHeadlightsOff();
@@ -59,7 +59,7 @@ public class Car
      * @throws InterruptedException 
      */
     public void slowDown() throws InterruptedException{
-    	string c = new string("     *");
+    	String c = new String("     *");
     	for(int i=0; i<5; i++)
         {
         	System.out.print(c);
@@ -74,10 +74,13 @@ public class Car
      * @throws InterruptedException 
      */    
     public void moveDown() throws InterruptedException{
-    	string c = new string("\t\t\t\t  *"));
-    	for(int i=0, i<5, i++)
+    	String c = new String("\t\t\t\t  *");
+    	//poner s mayuscula y quitar un parentesis de mas
+    	for(int i=0; i<5; i++);
+    	//cambiar las comas por punto y coma
         {
-    		if(i!=4)
+    		if(numberWheels!=4)
+    			//cambiar la variable i por la constante numberwheels
     			System.out.println(c);
     		else 
     			System.out.print(c);
